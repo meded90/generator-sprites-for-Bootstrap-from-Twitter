@@ -1,0 +1,70 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<title>Storage.js демо</title>
+<style>
+input {
+    width: 150px;
+    margin-right: 10px;
+}
+</style>
+<script src="/storage/storage.js"></script>
+<script>
+
+    function $(id) {
+        return document.getElementById(id) 
+    }
+
+    Storage.swfUrl = '/storage/storage.swf'
+    window.onload = function() {
+        Storage.init()
+    }
+
+</script>
+</head>
+<body>
+  
+<div><a href="http://browserpersistence.ru">&laquo; &laquo; Назад на browserpersistence.ru</a></div>
+
+  <h2>Storage.js демо</h2>
+
+<p>На этой демке Вы можете записать и прочитать значение по ключу.<br/>Оно сохранится в браузере и будет доступно после нового захода на страницу.<br/>*Без Cookie( и лишних данных в заголовках браузера). Без AJAX. Можно хранить большие объекты (обычно до 100кб).</p>
+   
+   
+   Ключ: <input type="text" id="key" value="data">
+    
+<p>
+<input type="button" value="Записать значение" onclick="
+Storage.put($('key').value, $('in').value)
+"/>
+<input type="text" id="in" value="данные"/>
+</p>
+
+<p>
+<input type="button" value="Показать значение" onclick="
+$('out').innerHTML = Storage.get($('key').value)"/>
+</p>
+
+<p>
+<input type="button" value="Удалить ключ" onclick="Storage.remove( $('key').value )"/>
+</p>
+
+<p>
+<input type="button" value="Показать все ключи" onclick="$('out').innerHTML = Storage.getKeys().join(',')"/>
+</p>
+
+<p>
+<input type="button" value="Удалить все ключи" onclick="Storage.clear()"/>
+</p>
+
+
+<span id="out"></span>
+
+
+    
+
+</body>
+</html>
+

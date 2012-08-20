@@ -1,0 +1,117 @@
+// ФОРМЫ
+
+
+input.border_box,
+select.border_box,
+textarea.border_box{
+    .inBorder-box();
+}
+
+// форма в линию и на васю щирену
+@fhf-ml:160px;// по умолчанию 160px
+@fhf-mr:60px;//  как нравится
+
+.form-horizontal_full{
+  // Increase spacing between groups
+  .control-group {
+    margin-bottom: @baseLineHeight;
+    .clearfix();
+  }
+  // Float the labels left
+  .control-label {
+    float: left;
+    width: @fhf-ml - 20px;
+    padding-top: 5px;
+    text-align: right;
+  }
+  // Move over all input controls and content
+  .controls {
+    // Super jank IE7 fix to ensure the inputs in .input-append and input-prepend
+    // don't inherit the margin of the parent, in this case .controls
+
+    margin-left: @fhf-ml;
+    margin-right:@fhf-mr;
+
+    > input,
+    > select,
+    > textarea{
+        width: 100%;
+        .inBorder-box();
+        }
+  }
+  // Remove bottom margin on block level help text since that's accounted for on .control-group
+  .help-block {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  // Move over buttons in .form-actions to align with .controls
+  .form-actions {
+    padding-left: 160px;
+  }
+}
+
+.form-vertical_full{
+    .controls {
+        margin-left:0;
+        margin-right:0;
+        *padding-left:0;
+        &:first-child {
+          *padding-left: 0px;
+        }
+        > input,
+        > select,
+        > textarea{
+            width: 100%;
+            .inBorder-box();
+            }
+        .checkbox{
+            padding-top: 0;
+        }
+        input[type="image"], input[type="checkbox"], input[type="radio"]{
+         margin-top: 0;
+        }
+
+    }
+    .control-label{
+        float:none;
+        display: block;
+        margin-bottom: 5px;
+        width:auto;
+        padding-top:none;
+        text-align:left;
+    }
+}
+
+//input на всю щирину
+input.w_rull{
+    .box-sizing(border-box);
+    height: 28px;
+    width:100%;
+}
+
+
+
+//смена блочной модели для инпутов
+@inputBorder:1;
+@inputPaddingRight: 4;
+@inputPaddingLeftL: 4;
+.inBorder-box(){
+    @inputLage: -(@inputPaddingLeftL+@inputPaddingRight+@inputBorder*2);
+    *z-index: e("expression( runtimeStyle.zIndex = 1, runtimeStyle.width = parentNode.offsetWidth @{inputLage} +'px')");
+    .box-sizing(border-box);
+    min-height: 28px;
+    *min-height: 18px;
+    min-height: 18px e("\9");
+}
+/*хаки ждя ie 8*/
+:root{
+    input.w_rull,
+    .form-horizontal_full,
+    .form-full{
+        input,
+        select,
+        textarea{
+           min-height: 28px;
+       }
+    }
+}

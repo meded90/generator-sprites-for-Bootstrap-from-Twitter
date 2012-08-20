@@ -1,0 +1,36 @@
+// СТРЕЛКИ
+
+.arrow(@pos,@size,@color){
+    display: inline-block;
+    .ie7-inline-block();
+    width: 0;
+    height: 0;
+    vertical-align: middle;
+
+    border-width:@size;
+    border-color:transparent;
+    border-style:solid;
+    content: "";
+}
+.arrow(top,@size,@color){
+    border-bottom-color:@color;
+    margin-top:-@size/2;
+}
+.arrow(bottom,@size,@color){
+    border-top-color:@color;
+    margin-top:@size/2;
+}
+.arrow(right,@size,@color){
+    border-left-color:@color;
+}
+.arrow(left,@size,@color){
+    border-right-color:@color;
+}
+
+//tool tip
+
+
+//Тултип с рамкой
+tl-bd{
+
+}

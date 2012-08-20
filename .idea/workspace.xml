@@ -1,7 +1,126 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="de66304e-3f4c-4a78-8e9d-dbcfe4420490" name="Default" comment="first commit">
+    <list default="true" id="de66304e-3f4c-4a78-8e9d-dbcfe4420490" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font/fontawesome-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font/fontawesome-webfont.svgz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font/fontawesome-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font/fontawesome-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/glyphicons-halflings-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/glyphicons-halflings.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/storage/storage.fla" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/storage/storage.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/zclip/ZeroClipboard.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/zeroclipboard/._ZeroClipboard10.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/zeroclipboard/ZeroClipboard.fla" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/zeroclipboard/ZeroClipboard.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/zeroclipboard/ZeroClipboard10.fla" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/zeroclipboard/ZeroClipboard10.swf" />
+      <change type="NEW" beforePath="" afterPath="Z:\home\data-url.ru\logo\����.ai" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.htaccess" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/ie_hack7.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/ie_hack8.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/other.css" />
+      <change type="NEW" beforePath="" afterPath="Z:\home\data-url.ru\css\style (������-��'s conflicted copy 2012-07-30).css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font/fontawesome-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/.jshintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/base64.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/bootstrap-button.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/bootstrap-collapse.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/bootstrap-dropdown.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/canvas2image.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/css3-multi-column.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/excanvas.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/google-code-prettify/lang-css.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/google-code-prettify/lang-lisp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/google-code-prettify/prettify.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/google-code-prettify/prettify.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jGrowl/jGrowl.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jGrowl/js/jquery.jgrowl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery.client.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery.cookie.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery.fittext.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery.valid8.source.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/less-1.3.0.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/projekt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/selectivizr-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/storage/demo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/storage/readme.utf8.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/storage/storage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/storage/storage.uncompressed.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/zclip/jquery.zclip.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/zeroclipboard/._ZeroClipboard.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/zeroclipboard/._ZeroClipboard.fla" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/zeroclipboard/._ZeroClipboard.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/zeroclipboard/._ZeroClipboard.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/zeroclipboard/._ZeroClipboard10.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/zeroclipboard/._ZeroClipboard10.fla" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/zeroclipboard/._test.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/zeroclipboard/ZeroClipboard.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/zeroclipboard/ZeroClipboard.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/zeroclipboard/ZeroClipboard10.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/zeroclipboard/test.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/Framework/accordion.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/Framework/alerts.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/Framework/bootstrap.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/Framework/breadcrumbs.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/Framework/button-groups.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/Framework/buttons.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/Framework/carousel.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/Framework/close.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/Framework/code.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/Framework/component-animations.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/Framework/dropdowns.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/Framework/forms.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/Framework/grid.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/Framework/hero-unit.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/Framework/labels-badges.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/Framework/layouts.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/Framework/mixins.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/Framework/modals.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/Framework/navbar.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/Framework/navs.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/Framework/pager.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/Framework/pagination.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/Framework/popovers.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/Framework/progress-bars.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/Framework/reset.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/Framework/responsive-1200px-min.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/Framework/responsive-767px-max.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/Framework/responsive-768px-979px.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/Framework/responsive-navbar.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/Framework/responsive-utilities.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/Framework/responsive.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/Framework/scaffolding.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/Framework/sprites.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/Framework/tables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/Framework/thumbnails.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/Framework/tooltip.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/Framework/type.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/Framework/utilities.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/Framework/variables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/Framework/wells.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/font-awesome.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/less-1.3.0.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/less.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/lessc.cmd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/lessc.wsf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/my_framework.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/my_framework/arrow.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/my_framework/form-full.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/my_framework/my_framework.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/my_framework/shadow.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/style.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/tests/css-tests.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/tests/css-tests.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/port.fbp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testCSS.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www" afterPath="$PROJECT_DIR$/www" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -34,10 +153,82 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="testCSS.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/www/testCSS.html">
+      <file leaf-file-name="testCSS.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testCSS.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="7" selection-start="241" selection-end="241" vertical-scroll-proportion="0.41724136">
+            <state line="11" column="7" selection-start="241" selection-end="241" vertical-scroll-proportion="-8.344828">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="7" selection-start="30754" selection-end="30754" vertical-scroll-proportion="-11.379311">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="excanvas.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/excanvas.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="882" column="0" selection-start="25979" selection-end="25979" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jquery.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/jquery.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13686" column="0" selection-start="517616" selection-end="517616" vertical-scroll-proportion="0.33333334">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="navbar.less" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/less/Framework/navbar.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="350" column="0" selection-start="8342" selection-end="8342" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="less.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/less/less.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2048" column="0" selection-start="69754" selection-end="69754" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="less-1.3.0.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/less/less-1.3.0.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2108" column="0" selection-start="72544" selection-end="72544" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="forms.less" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/less/Framework/forms.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="191" column="0" selection-start="3785" selection-end="3785" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dropdowns.less" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/less/Framework/dropdowns.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="120" column="0" selection-start="2686" selection-end="2686" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -51,6 +242,7 @@
     </FindUsagesManager>
   </component>
   <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="MERGE" />
     <option name="LINE_SEPARATORS_CONVERSION" value="ASK" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -61,6 +253,14 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/www/testCSS.html" />
+        <option value="$PROJECT_DIR$/www/test.html" />
+        <option value="$PROJECT_DIR$/less/Framework/navbar.less" />
+        <option value="$PROJECT_DIR$/less/less.js" />
+        <option value="$PROJECT_DIR$/less/less-1.3.0.js" />
+        <option value="$PROJECT_DIR$/less/Framework/forms.less" />
+        <option value="$PROJECT_DIR$/less/Framework/dropdowns.less" />
+        <option value="$PROJECT_DIR$/js/excanvas.js" />
+        <option value="$PROJECT_DIR$/js/jquery.js" />
       </list>
     </option>
   </component>
@@ -108,38 +308,6 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="data-url.ru">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="www">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="data-url.ru">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="www">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="font">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="ColorIdeProjectViewPane" />
@@ -158,15 +326,15 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="267" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="1060" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="1064" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="1060" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="262" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="260" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -175,6 +343,11 @@
     <option name="myDjangoConsoleState">
       <PyConsoleSettings />
     </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="Z:\home\data-url.ru" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="tests" factoryName="Doctests">
@@ -193,6 +366,13 @@
       <option name="TEST_TYPE" value="TEST_SCRIPT" />
       <option name="PATTERN" value="" />
       <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
       <method />
     </configuration>
     <list size="0" />
@@ -224,7 +404,7 @@
     </task>
     <servers />
   </component>
-  <component name="TodoView" selected-index="0">
+  <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
       <are-packages-shown value="false" />
       <are-modules-shown value="false" />
@@ -252,14 +432,14 @@
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41773504" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CSS-X-Fire" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905984" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32905984" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25320512" sideWeight="0.67948717" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25641027" sideWeight="0.67094016" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32051283" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32051283" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -332,9 +512,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/testCSS.html">
+    <entry file="file://$PROJECT_DIR$/testCSS.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="7" selection-start="241" selection-end="241" vertical-scroll-proportion="0.41724136">
+        <state line="11" column="7" selection-start="241" selection-end="241" vertical-scroll-proportion="-8.344828">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="7" selection-start="30754" selection-end="30754" vertical-scroll-proportion="-11.379311">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less/Framework/navbar.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="350" column="0" selection-start="8342" selection-end="8342" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less/less.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2048" column="0" selection-start="69754" selection-end="69754" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less/less-1.3.0.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2108" column="0" selection-start="72544" selection-end="72544" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less/Framework/forms.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="191" column="0" selection-start="3785" selection-end="3785" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less/Framework/dropdowns.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="120" column="0" selection-start="2686" selection-end="2686" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/excanvas.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="882" column="0" selection-start="25979" selection-end="25979" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13686" column="0" selection-start="517616" selection-end="517616" vertical-scroll-proportion="0.33333334">
           <folding />
         </state>
       </provider>
