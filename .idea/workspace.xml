@@ -1,57 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="de66304e-3f4c-4a78-8e9d-dbcfe4420490" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/sass_stdlib.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/other.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/testrunner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index-to-Bacbone.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/libs/backbone.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/libs/underscore.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/main.js" />
-      <change type="DELETED" beforePath="D:\work\generator-sprites-for-Bootstrap-from-Twitter\js\.jshintrc" afterPath="" />
-      <change type="DELETED" beforePath="D:\work\generator-sprites-for-Bootstrap-from-Twitter\js\base64.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\work\generator-sprites-for-Bootstrap-from-Twitter\js\canvas2image.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\work\generator-sprites-for-Bootstrap-from-Twitter\js\jquery.client.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\work\generator-sprites-for-Bootstrap-from-Twitter\js\jquery.cookie.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\work\generator-sprites-for-Bootstrap-from-Twitter\js\jquery.fittext.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\work\generator-sprites-for-Bootstrap-from-Twitter\js\jquery.valid8.source.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\work\generator-sprites-for-Bootstrap-from-Twitter\js\less-1.3.0.min.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about-program.html" afterPath="$PROJECT_DIR$/about-program.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/style.less" afterPath="$PROJECT_DIR$/less/style.less" />
-      <change type="MOVED" beforePath="D:\work\generator-sprites-for-Bootstrap-from-Twitter\js\bootstrap-button.js" afterPath="$PROJECT_DIR$/js/bootstrap/bootstrap-button.js" />
-      <change type="MOVED" beforePath="D:\work\generator-sprites-for-Bootstrap-from-Twitter\js\bootstrap-collapse.js" afterPath="$PROJECT_DIR$/js/bootstrap/bootstrap-collapse.js" />
-      <change type="MOVED" beforePath="D:\work\generator-sprites-for-Bootstrap-from-Twitter\js\bootstrap-dropdown.js" afterPath="$PROJECT_DIR$/js/bootstrap/bootstrap-dropdown.js" />
-      <change type="MOVED" beforePath="D:\work\generator-sprites-for-Bootstrap-from-Twitter\js\css3-multi-column.js" afterPath="$PROJECT_DIR$/js/ie-fix/css3-multi-column.js" />
-      <change type="MOVED" beforePath="D:\work\generator-sprites-for-Bootstrap-from-Twitter\js\excanvas.js" afterPath="$PROJECT_DIR$/js/ie-fix/excanvas.js" />
-      <change type="MOVED" beforePath="D:\work\generator-sprites-for-Bootstrap-from-Twitter\js\google-code-prettify\lang-css.js" afterPath="$PROJECT_DIR$/js/plugin/google-code-prettify/lang-css.js" />
-      <change type="MOVED" beforePath="D:\work\generator-sprites-for-Bootstrap-from-Twitter\js\google-code-prettify\lang-lisp.js" afterPath="$PROJECT_DIR$/js/plugin/google-code-prettify/lang-lisp.js" />
-      <change type="MOVED" beforePath="D:\work\generator-sprites-for-Bootstrap-from-Twitter\js\google-code-prettify\prettify.css" afterPath="$PROJECT_DIR$/js/plugin/google-code-prettify/prettify.css" />
-      <change type="MOVED" beforePath="D:\work\generator-sprites-for-Bootstrap-from-Twitter\js\google-code-prettify\prettify.js" afterPath="$PROJECT_DIR$/js/plugin/google-code-prettify/prettify.js" />
-      <change type="MOVED" beforePath="D:\work\generator-sprites-for-Bootstrap-from-Twitter\js\jGrowl\jGrowl.less" afterPath="$PROJECT_DIR$/js/plugin/jGrowl/jGrowl.less" />
-      <change type="MOVED" beforePath="D:\work\generator-sprites-for-Bootstrap-from-Twitter\js\jGrowl\js\jquery.jgrowl.js" afterPath="$PROJECT_DIR$/js/plugin/jGrowl/js/jquery.jgrowl.js" />
-      <change type="MOVED" beforePath="D:\work\generator-sprites-for-Bootstrap-from-Twitter\js\jquery.js" afterPath="$PROJECT_DIR$/js/libs/jquery.js" />
-      <change type="MOVED" beforePath="D:\work\generator-sprites-for-Bootstrap-from-Twitter\js\selectivizr-min.js" afterPath="$PROJECT_DIR$/js/ie-fix/selectivizr-min.js" />
-      <change type="MOVED" beforePath="D:\work\generator-sprites-for-Bootstrap-from-Twitter\js\zclip\ZeroClipboard.swf" afterPath="$PROJECT_DIR$/js/plugin/zclip/ZeroClipboard.swf" />
-      <change type="MOVED" beforePath="D:\work\generator-sprites-for-Bootstrap-from-Twitter\js\zclip\jquery.zclip.js" afterPath="$PROJECT_DIR$/js/plugin/zclip/jquery.zclip.js" />
-      <change type="MOVED" beforePath="D:\work\generator-sprites-for-Bootstrap-from-Twitter\js\zeroclipboard\._ZeroClipboard.as" afterPath="$PROJECT_DIR$/js/plugin/zeroclipboard/._ZeroClipboard.as" />
-      <change type="MOVED" beforePath="D:\work\generator-sprites-for-Bootstrap-from-Twitter\js\zeroclipboard\._ZeroClipboard.fla" afterPath="$PROJECT_DIR$/js/plugin/zeroclipboard/._ZeroClipboard.fla" />
-      <change type="MOVED" beforePath="D:\work\generator-sprites-for-Bootstrap-from-Twitter\js\zeroclipboard\._ZeroClipboard.js" afterPath="$PROJECT_DIR$/js/plugin/zeroclipboard/._ZeroClipboard.js" />
-      <change type="MOVED" beforePath="D:\work\generator-sprites-for-Bootstrap-from-Twitter\js\zeroclipboard\._ZeroClipboard.swf" afterPath="$PROJECT_DIR$/js/plugin/zeroclipboard/._ZeroClipboard.swf" />
-      <change type="MOVED" beforePath="D:\work\generator-sprites-for-Bootstrap-from-Twitter\js\zeroclipboard\._ZeroClipboard10.as" afterPath="$PROJECT_DIR$/js/plugin/zeroclipboard/._ZeroClipboard10.as" />
-      <change type="MOVED" beforePath="D:\work\generator-sprites-for-Bootstrap-from-Twitter\js\zeroclipboard\._ZeroClipboard10.fla" afterPath="$PROJECT_DIR$/js/plugin/zeroclipboard/._ZeroClipboard10.fla" />
-      <change type="MOVED" beforePath="D:\work\generator-sprites-for-Bootstrap-from-Twitter\js\zeroclipboard\._ZeroClipboard10.swf" afterPath="$PROJECT_DIR$/js/plugin/zeroclipboard/._ZeroClipboard10.swf" />
-      <change type="MOVED" beforePath="D:\work\generator-sprites-for-Bootstrap-from-Twitter\js\zeroclipboard\._test.html" afterPath="$PROJECT_DIR$/js/plugin/zeroclipboard/._test.html" />
-      <change type="MOVED" beforePath="D:\work\generator-sprites-for-Bootstrap-from-Twitter\js\zeroclipboard\ZeroClipboard.as" afterPath="$PROJECT_DIR$/js/plugin/zeroclipboard/ZeroClipboard.as" />
-      <change type="MOVED" beforePath="D:\work\generator-sprites-for-Bootstrap-from-Twitter\js\zeroclipboard\ZeroClipboard.fla" afterPath="$PROJECT_DIR$/js/plugin/zeroclipboard/ZeroClipboard.fla" />
-      <change type="MOVED" beforePath="D:\work\generator-sprites-for-Bootstrap-from-Twitter\js\zeroclipboard\ZeroClipboard.js" afterPath="$PROJECT_DIR$/js/plugin/zeroclipboard/ZeroClipboard.js" />
-      <change type="MOVED" beforePath="D:\work\generator-sprites-for-Bootstrap-from-Twitter\js\zeroclipboard\ZeroClipboard.swf" afterPath="$PROJECT_DIR$/js/plugin/zeroclipboard/ZeroClipboard.swf" />
-      <change type="MOVED" beforePath="D:\work\generator-sprites-for-Bootstrap-from-Twitter\js\zeroclipboard\ZeroClipboard10.as" afterPath="$PROJECT_DIR$/js/plugin/zeroclipboard/ZeroClipboard10.as" />
-      <change type="MOVED" beforePath="D:\work\generator-sprites-for-Bootstrap-from-Twitter\js\zeroclipboard\ZeroClipboard10.fla" afterPath="$PROJECT_DIR$/js/plugin/zeroclipboard/ZeroClipboard10.fla" />
-      <change type="MOVED" beforePath="D:\work\generator-sprites-for-Bootstrap-from-Twitter\js\zeroclipboard\ZeroClipboard10.swf" afterPath="$PROJECT_DIR$/js/plugin/zeroclipboard/ZeroClipboard10.swf" />
-      <change type="MOVED" beforePath="D:\work\generator-sprites-for-Bootstrap-from-Twitter\js\zeroclipboard\test.html" afterPath="$PROJECT_DIR$/js/plugin/zeroclipboard/test.html" />
+    <list default="true" id="de66304e-3f4c-4a78-8e9d-dbcfe4420490" name="Default" comment="first commit">
+      <change type="DELETED" beforePath="D:\work\generator-sprites-for-Bootstrap-from-Twitter\.idea\.name" afterPath="" />
+      <change type="DELETED" beforePath="D:\work\generator-sprites-for-Bootstrap-from-Twitter\.idea\cssxfire.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\work\generator-sprites-for-Bootstrap-from-Twitter\.idea\data-url.ru.iml" afterPath="" />
+      <change type="DELETED" beforePath="D:\work\generator-sprites-for-Bootstrap-from-Twitter\.idea\encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\work\generator-sprites-for-Bootstrap-from-Twitter\.idea\inspectionProfiles\profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\work\generator-sprites-for-Bootstrap-from-Twitter\.idea\libraries\sass_stdlib.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\work\generator-sprites-for-Bootstrap-from-Twitter\.idea\misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\work\generator-sprites-for-Bootstrap-from-Twitter\.idea\modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\work\generator-sprites-for-Bootstrap-from-Twitter\.idea\other.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\work\generator-sprites-for-Bootstrap-from-Twitter\.idea\scopes\scope_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\work\generator-sprites-for-Bootstrap-from-Twitter\.idea\testrunner.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\work\generator-sprites-for-Bootstrap-from-Twitter\.idea\vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\work\generator-sprites-for-Bootstrap-from-Twitter\.idea\workspace.xml" afterPath="" />
     </list>
     <ignored path="data-url.ru.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -63,7 +26,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CreatePatchCommitExecutor">
-    <option name="PATCH_PATH" value="Z:\home\data-url.ru" />
+    <option name="PATCH_PATH" value="" />
   </component>
   <component name="DaemonCodeAnalyzer">
     <disable_hints />
@@ -73,81 +36,7 @@
     <favorites_list name="data-url.ru" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5924242">
-      <split-first>
-        <leaf>
-          <file leaf-file-name="navbar.less" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/less/Framework/navbar.less">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="350" column="0" selection-start="8342" selection-end="8342" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="index-to-Bacbone.html" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/index-to-Bacbone.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="214" column="26" selection-start="9579" selection-end="9593" vertical-scroll-proportion="-7.0392156">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/js/main.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="71" column="18" selection-start="2247" selection-end="2247" vertical-scroll-proportion="0.6463878">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="forms.less" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/less/Framework/forms.less">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="191" column="0" selection-start="3785" selection-end="3785" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="dropdowns.less" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/less/Framework/dropdowns.less">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="120" column="0" selection-start="2686" selection-end="2686" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="jquery.client.js" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/js/plugin/jquery.client.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="207" column="49" selection-start="7720" selection-end="7737" vertical-scroll-proportion="-6.92">
-                  <folding>
-                    <marker date="1357412993064" expanded="true" signature="12912:12925" placeholder="..." />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="projekt.js" pinned="false" current="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/js/projekt.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -155,7 +44,6 @@
     </FindUsagesManager>
   </component>
   <component name="Git.Settings">
-    <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitLogSettings">
@@ -164,18 +52,7 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/www/testCSS.html" />
-        <option value="$PROJECT_DIR$/www/test.html" />
-        <option value="$PROJECT_DIR$/less/Framework/navbar.less" />
-        <option value="$PROJECT_DIR$/less/less.js" />
-        <option value="$PROJECT_DIR$/less/less-1.3.0.js" />
-        <option value="$PROJECT_DIR$/less/Framework/forms.less" />
-        <option value="$PROJECT_DIR$/less/Framework/dropdowns.less" />
-        <option value="$PROJECT_DIR$/js/excanvas.js" />
-        <option value="$PROJECT_DIR$/js/jquery.js" />
-        <option value="$PROJECT_DIR$/js/plugin/jquery.client.js" />
-        <option value="$PROJECT_DIR$/index-to-Bacbone.html" />
-        <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
       </list>
     </option>
   </component>
@@ -211,7 +88,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
       <pane id="Scope">
         <subPane subId="Project Files">
           <PATH>
@@ -224,65 +100,18 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="generator-sprites-for-Bootstrap-from-Twitter">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="js">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="generator-sprites-for-Bootstrap-from-Twitter">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="js">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="libs">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="ProjectPane" />
       <pane id="ColorIdeProjectViewPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="247" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="264" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="260" />
-    <property name="options.lastSelected" value="com.jetbrains.python.templateLanguages.TemplateLanguageModulesConfigurable" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="267" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="1060" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="1064" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="262" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="260" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
-    <property name="options.searchVisible" value="true" />
+    <property name="options.lastSelected" value="com.jetbrains.python.templateLanguages.TemplateLanguageModulesConfigurable" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -291,18 +120,6 @@
     <option name="myDjangoConsoleState">
       <PyConsoleSettings />
     </option>
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\work\generator-sprites-for-Bootstrap-from-Twitter" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\work\generator-sprites-for-Bootstrap-from-Twitter\js\ie-fix" />
-      <recent name="D:\work\generator-sprites-for-Bootstrap-from-Twitter\js\plugin" />
-      <recent name="D:\work\generator-sprites-for-Bootstrap-from-Twitter\js\bootstrap" />
-      <recent name="D:\work\generator-sprites-for-Bootstrap-from-Twitter\js\libs" />
-      <recent name="Z:\home\data-url.ru" />
-    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="tests" factoryName="Doctests">
@@ -321,13 +138,6 @@
       <option name="TEST_TYPE" value="TEST_SCRIPT" />
       <option name="PATTERN" value="" />
       <option name="USE_PATTERN" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugSession" factoryName="Local">
-      <JSDebuggerConfigurationSettings>
-        <option name="engineId" value="embedded" />
-        <option name="fileUrl" />
-      </JSDebuggerConfigurationSettings>
       <method />
     </configuration>
     <list size="0" />
@@ -381,18 +191,18 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41773504" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.41609588" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905984" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26060605" sideWeight="0.6712329" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25378788" sideWeight="0.5839041" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32051283" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905984" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -456,125 +266,7 @@
     <MESSAGE value="first commit" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="1" />
-    </breakpoint-manager>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/less/Framework/forms.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="191" column="0" selection-start="3785" selection-end="3785" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/less/Framework/dropdowns.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="120" column="0" selection-start="2686" selection-end="2686" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/less/less-1.3.0.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2108" column="0" selection-start="72544" selection-end="72544" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/port.fbp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-3.9943502">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/libs/jquery.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13686" column="0" selection-start="517616" selection-end="517616" vertical-scroll-proportion="0.048022598">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/ie-fix/excanvas.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="882" column="0" selection-start="25979" selection-end="25979" vertical-scroll-proportion="4.215259">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/less/less.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2048" column="0" selection-start="69754" selection-end="69754" vertical-scroll-proportion="63.578754">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/less/Framework/dropdowns.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="120" column="0" selection-start="2686" selection-end="2686" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavascriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/HTML5.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1190" column="35" selection-start="21124" selection-end="21124" vertical-scroll-proportion="0.33333334">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/plugin/jquery.client.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="207" column="49" selection-start="7720" selection-end="7737" vertical-scroll-proportion="-6.92">
-          <folding>
-            <marker date="1357412993064" expanded="true" signature="12912:12925" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/less/Framework/forms.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="191" column="0" selection-start="3785" selection-end="3785" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/less/Framework/navbar.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="350" column="0" selection-start="8342" selection-end="8342" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/projekt.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index-to-Bacbone.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="214" column="26" selection-start="9579" selection-end="9593" vertical-scroll-proportion="-7.0392156">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="18" selection-start="2247" selection-end="2247" vertical-scroll-proportion="0.6463878">
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <breakpoint-manager />
   </component>
 </project>
 
