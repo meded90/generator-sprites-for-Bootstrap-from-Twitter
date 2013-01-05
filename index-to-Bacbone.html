@@ -6,12 +6,6 @@
   <!--  откомпиленый LESS -->
   <link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
 
-  <!--  авто компиляция LESS
-
-    <script src="js/less-1.3.0.min.js" type="text/javascript"></script>
-  <link rel="stylesheet/less"  href="less/style.less" >
-
-  -->
   <script src="js/plugin/google-code-prettify/prettify.js"></script>
   <script src="js/plugin/google-code-prettify/lang-lisp.js"></script>
   <script src="js/plugin/google-code-prettify/lang-css.js"></script>
@@ -48,8 +42,8 @@
             </div>
         </div><!-- /navbar-inner -->
     </div>
-  <input type="file" id="fileUpload0" style="display:none;">
-
+  <!--<input type="file" id="fileUpload0" style="display:none;">-->
+<div id="img-container"><div class="text"><span>Перетащите сюда изоброжения</span></div><ul id="img-list" class="thumbnails"></ul></div>
   <div class="row">
       <div class="span6">
         <h2 class="margin-bottom-20">
@@ -192,9 +186,9 @@
 </div>
 <!-- Placed at the end of the document so the pages load faster -->
 <script src="js/libs/jquery.js"></script>
-<!--<script src="./js/base64.js"></script>-->
-<!--<script src="./js/canvas2image.js"></script>-->
-<script src="js/plugin/jquery.client.js"></script>
+<script src="js/libs/underscore.js"></script>
+<script src="js/libs/backbone.js"></script>
+<!--<script src="js/jquery.client.js"></script>-->
 <script src="js/bootstrap/bootstrap-button.js"></script>
 <script src="js/bootstrap/bootstrap-collapse.js"></script>
 <script src="js/bootstrap/bootstrap-dropdown.js"></script>
@@ -202,20 +196,28 @@
 <script src="js/plugin/jGrowl/js/jquery.jgrowl.js"></script>
 <script src="js/plugin/jquery.fittext.js"></script>
 <script src="js/plugin/jquery.cookie.js"></script>
+<script src="js/main.js"></script>
 <!--<script src="./js/zeroclipboard/ZeroClipboard.js"></script>-->
-<script src="js/projekt.js"></script>
-<script type="text/javascript">
+<!--<script src="js/projekt.js"></script>-->
+<!--<script type="text/javascript">-->
 
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-34209445-1']);
-  _gaq.push(['_trackPageview']);
+  <!--var _gaq = _gaq || [];-->
+  <!--_gaq.push(['_setAccount', 'UA-34209445-1']);-->
+  <!--_gaq.push(['_trackPageview']);-->
 
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
+  <!--(function() {-->
+    <!--var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;-->
+    <!--ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';-->
+    <!--var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);-->
+  <!--})();-->
 
+<!--</script>-->
+<script id="previewItemTpl">
+    <span class="close delpreview" type="button">×</span>
+    <div class="photoName">add.png</div>
+    <div class="imgBox">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAJvSURBVDjLpZPrS5NhGIf9W7YvBYOkhlkoqCklWChv2WyKik7blnNris72bi6dus0DLZ0TDxW1odtopDs4D8MDZuLU0kXq61CijSIIasOvv94VTUfLiB74fXngup7nvrnvJABJ/5PfLnTTdcwOj4RsdYmo5glBWP6iOtzwvIKSWstI0Wgx80SBblpKtE9KQs/We7EaWoT/8wbWP61gMmCH0lMDvokT4j25TiQU/ITFkek9Ow6+7WH2gwsmahCPdwyw75uw9HEO2gUZSkfyI9zBPCJOoJ2SMmg46N61YO/rNoa39Xi41oFuXysMfh36/Fp0b7bAfWAH6RGi0HglWNCbzYgJaFjRv6zGuy+b9It96N3SQvNKiV9HvSaDfFEIxXItnPs23BzJQd6DDEVM0OKsoVwBG/1VMzpXVWhbkUM2K4oJBDYuGmbKIJ0qxsAbHfRLzbjcnUbFBIpx/qH3vQv9b3U03IQ/HfFkERTzfFj8w8jSpR7GBE123uFEYAzaDRIqX/2JAtJbDat/COkd7CNBva2cMvq0MGxp0PRSCPF8BXjWG3FgNHc9XPT71Ojy3sMFdfJRCeKxEsVtKwFHwALZfCUk3tIfNR8XiJwc1LmL4dg141JPKtj3WUdNFJqLGFVPC4OkR4BxajTWsChY64wmCnMxsWPCHcutKBxMVp5mxA1S+aMComToaqTRUQknLTH62kHOVEE+VQnjahscNCy0cMBWsSI0TCQcZc5ALkEYckL5A5noWSBhfm2AecMAjbcRWV0pUTh0HE64TNf0mczcnnQyu/MilaFJCae1nw2fbz1DnVOxyGTlKeZft/Ff8x1BRssfACjTwQAAAABJRU5ErkJggg==">
+    </div>
 </script>
 </body>
 </html>
