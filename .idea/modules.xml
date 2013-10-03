@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/data-url.ru.iml" filepath="$PROJECT_DIR$/.idea/data-url.ru.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/sprites-generator.iml" filepath="$PROJECT_DIR$/.idea/sprites-generator.iml" />
     </modules>
   </component>
 </project>

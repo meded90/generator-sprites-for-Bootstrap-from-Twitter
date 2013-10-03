@@ -1,4 +1,5 @@
-var Img = Backbone.Model.extend({
+window.Sprate
+Sprate.Img = Backbone.Model.extend({
     default : {
         dataUrl: undefined,
         nameFile: "default name file",
@@ -11,7 +12,7 @@ var Img = Backbone.Model.extend({
     }
 });
 
-var ImgCol = Backbone.Collection.extend({
+Sprate.ImgCol = Backbone.Collection.extend({
     model: Img,
     initialize: function(){
         $(this).on("add", function() {
@@ -64,16 +65,18 @@ var ImgCol = Backbone.Collection.extend({
     }
 
 });
-var imgCol = new ImgCol;
-var PreviewItem = Backbone.View.extend({
+Sprate.imgCol = new Sprate.ImgCol;
+
+Sprate.PreviewItem = Backbone.View.extend({
     initialize: function(){
         imgCol.on(add, this.render())
     },
     tagName: "li",
     className: "span2 thumbnail",
-    template: _.template($("#previewItemTpl").html()),
     render: function(){
-        $el.html(this.template(this.model.toJSON()));
+        var template = _.template($("#previewItemTpl").html());
+
+        this.$el.html(template(this.model.toJSON()));
         return this
     }
 });
