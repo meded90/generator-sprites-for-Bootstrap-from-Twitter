@@ -1,223 +1,261 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Генератор-спрайто</title>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-  <!--  откомпиленый LESS -->
-  <link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
+    <title>Генератор-спрайто</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <!--  откомпиленый LESS -->
+    <link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
 
-  <script src="js/plugin/google-code-prettify/prettify.js"></script>
-  <script src="js/plugin/google-code-prettify/lang-lisp.js"></script>
-  <script src="js/plugin/google-code-prettify/lang-css.js"></script>
-  <link rel="stylesheet" type="text/css" href="js/plugin/google-code-prettify/prettify.css" media="screen">
+    <script src="js/plugin/google-code-prettify/prettify.js"></script>
+    <script src="js/plugin/google-code-prettify/lang-lisp.js"></script>
+    <script src="js/plugin/google-code-prettify/lang-css.js"></script>
+    <link rel="stylesheet" type="text/css" href="js/plugin/google-code-prettify/prettify.css" media="screen">
 
 </head>
 <body>
-<div class="container">
-  <div class="navbar">
-      <div class="navbar-inner">
-          <div class="container">
-              <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                </a>
-              <a class="brand" href="./index.html">Генератор-спрайто </a>
-              <div class="nav-collapse">
-                  <ul class="nav">
-                      <li><a href="./about-program.html"><i class="icon-question-sign size-16"></i>О прогрограме</a></li>
-                      <li><a target="_blank" href="https://github.com/meded90/generator-sprites-for-Bootstrap-from-Twitter"><i class="icon-github size-16"></i>github</a></li>
-                      <li class="dropdown">
-                    </ul>
-                  <ul class="nav pull-right">
-                      <li class="dropdown">
-                          <a href="" class="dropdown-toggle" data-toggle="dropdown" >язык <b class="caret"></b></a>
-                          <ul id="menu-lang" class="dropdown-menu">
-                              <li><a href="#"><i class="flag-ru"></i>Русский</a></li>
-                              <li><a href="#"><i class="flag-eng"></i>Англисский</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div><!-- /.nav-collapse -->
-            </div>
-        </div><!-- /navbar-inner -->
+<div class="navbar navbar-inverse">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="./index.html">Генератор-спрайто</a>
     </div>
-  <!--<input type="file" id="fileUpload0" style="display:none;">-->
-<div id="img-container"><div class="text"><span>Перетащите сюда изоброжения</span></div><ul id="img-list" class="thumbnails"></ul></div>
-  <div class="row">
-      <div class="span6">
-        <h2 class="margin-bottom-20">
-          Отредактируйте изображения
-        </h2>
+    <div class="collapse navbar-collapse navbar-ex1-collapse">
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="./about-program.html"><i class="icon-question-sign size-16"></i>О
+                прогрограме</a></li>
+            <li><a target="_blank" href="https://github.com/meded90/generator-sprites-for-Bootstrap-from-Twitter"><i
+                    class="icon-github size-16"></i>github</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+                <a href="" class="dropdown-toggle" data-toggle="dropdown">язык <b class="caret"></b></a>
+                <ul id="menu-lang" class="dropdown-menu">
+                    <li><a href="#"><i class="flag-ru"></i>Русский</a></li>
+                    <li><a href="#"><i class="flag-eng"></i>Англисский</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</div>
+<!-- /navbar-inner -->
+<div id="img-container" class="container-fluid">
+    <div class="text"><span>Перетащите сюда изоброжения</span></div>
+    <ul id="img-list" class="row"></ul>
+</div>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-6 col-md-6 col-lg-6">
+            <h2 class="margin-bottom-20">
+                Отредактируйте изображения
+            </h2>
 
 
+            <a disabled id="downloadSprit" class="downloadSprit btn btn-large" download="MyGoogleLogo"> Cкачать
+                спайт</a>
+            <a id="addDataURL" class=" btn btn-large btn-primary active" data-toggle="button">добавить Data URL в
+                <span>less</span></a>
 
-          <a disabled  id="downloadSprit" class="downloadSprit btn btn-large" download="MyGoogleLogo" > Cкачать спайт</a>
-          <a id="addDataURL"  class=" btn btn-large btn-primary active" data-toggle="button">добавить  Data URL в
-              <span>less</span></a>
+            <h3><a class="link_in" data-toggle="collapse" data-target="#optionsImg">Настройки</a></h3>
 
-          <h3><a  class="link_in" data-toggle="collapse" data-target="#optionsImg" >Настройки</a></h3>
-          <div id="optionsImg" class="collapse ">
-              <form class="form-vertical_full">
-                <div class="row">
-                  <div class="span2">
-                    <div class="control-group">
-                      <label class="control-label" for="folderImg">Папка</label>
-                      <div class="controls">
-                        <input type="text" id="folderImg" value="img">
-                        <p class="help-block inline">/</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="span2">
-                    <div class="control-group">
-                      <label class="control-label" for="nameImg">фаил</label>
-                      <div class="controls">
-                        <input type="text" id="nameImg" value="sprites">
-                        <p class="help-block inline">.png</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </form>
-              <form class="form-horizontal">
-                  <div class="control-group">
-                      <label class="control-label" for="spritesMarginBottomInput">Смещение по вертикали:</label>
-                      <div class="controls">
-                          <input pattern="[0-9]" type="number" class="span1" value="10" id="spritesMarginBottomInput">
-                          <p class="help-block inline ">px</p>
+            <div id="optionsImg" class="collapse ">
+                <form class="form-vertical_full">
+                    <div class="row">
+                        <div class="col-sm-2 col-md-2 col-lg-2">
+                            <div class="form-group">
+                                <label class="control-label" for="folderImg">Папка</label>
+
+                                <div class="controls">
+                                    <input class="form-control " type="text" id="folderImg" value="img">
+
+                                    <p class="help-block inline">/</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-2 col-md-2 col-lg-2">
+                            <div class="form-group">
+                                <label class="control-label" for="nameImg">фаил</label>
+
+                                <div class="controls">
+                                    <input class="form-control " type="text" id="nameImg" value="sprites">
+
+                                    <p class="help-block inline">.png</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                  <div class="control-group">
-                      <label class="control-label" for="spritesMarginRightInput">Смещение по горизонтали:</label>
-                      <div class="controls">
-                          <input pattern="[0-9]" type="number" class="span1" value="10" id="spritesMarginRightInput">
-                          <p class="help-block inline ">px</p>
+                </form>
+                <form class="form-horizontal">
+                    <div class="form-group">
+                        <label class="control-label" for="spritesMarginBottomInput">Смещение по вертикали:</label>
+
+                        <div class="controls">
+                            <input pattern="[0-9]" type="number" class=" form-control col-sm-1 col-md-1  col-lg-1"
+                                   value="10" id="spritesMarginBottomInput">
+
+                            <p class="help-block inline ">px</p>
                         </div>
                     </div>
-                  <div class="control-group">
-                      <label class="control-label" for="numberColumnInput">Количество элементов в столбце:</label>
-                      <div class="controls">
-                          <input pattern="[0-9]" type="number" class="span1"  value="10"  id="numberColumnInput">
+                    <div class="form-group">
+                        <label class="control-label" for="spritesMarginRightInput">Смещение по горизонтали:</label>
+
+                        <div class="controls">
+                            <input pattern="[0-9]" type="number" class=" form-control col-sm-1 col-md-1  col-lg-1"
+                                   value="10" id="spritesMarginRightInput">
+
+                            <p class="help-block inline ">px</p>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label" for="numberColumnInput">Количество элементов в столбце:</label>
+
+                        <div class="controls">
+                            <input pattern="[0-9]" type="number" class=" form-control col-sm-1 col-md-1  col-lg-1"
+                                   value="10" id="numberColumnInput">
                         </div>
                     </div>
                 </form>
             </div>
-        <div id="container" class="margin-top-30">
-          <div id="topscrl">
-            <div id="topfake"></div>
-          </div>
-          <div id="content">
-          <div class="box-picture">
-            <canvas id="picture"  style="display: none"></canvas>
-            <div id="resultImg"></div>
-          </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="span6">
-        <h2 class="margin-bottom-20">
-          Скачайте стили
-          <div id="styleThose" class="btn-group" data-toggle="buttons-radio">
-            <a class="btn btn-primary ">CSS</a>
-            <a class="btn btn-item btn-primary active" rel="tooltip" data-original-title="for Bootstrap, from Twitter">Less</a>
-          </div>
-        </h2>
-
-
-        <a class="downloadSprit btn btn-large" id="downloadStyle" disabled > Cкачать стили</a>
-
-        <div  class="in-block zclip-box">
-          <a id="copiedMemory"class=" btn btn-large btn-primary" disabled>Копировать в буфер обмена</a>
-        </div>
-        <h3><a  class="link_in" data-toggle="collapse" data-target="#optionsStyle" >Настройки</a></h3>
-        <div id="optionsStyle" class="collapse ">
-          <form class="form-vertical_full">
-            <div class="row">
-              <div class="span2">
-                <div class="control-group">
-                  <label class="control-label" for="folderStyle">Папка</label>
-                  <div class="controls">
-                    <input type="text" id="folderStyle" value="less">
-                    <p class="help-block inline">/</p>
-                  </div>
+            <div id="container" class="margin-top-30">
+                <div id="topscrl">
+                    <div id="topfake"></div>
                 </div>
-              </div>
-              <div class="span2">
-                <div class="control-group">
-                  <label class="control-label" for="nameStyle">фаил</label>
-                  <div class="controls">
-                    <input type="text" id="nameStyle" value="sprites">
-                    <p class="help-block inline">.less</p>
-                  </div>
+                <div id="content">
+                    <div class="box-picture">
+                        <canvas id="picture" style="display: none"></canvas>
+                        <div id="resultImg"></div>
+                    </div>
                 </div>
-              </div>
             </div>
-          </form>
-          <form class="form-horizontal">
-
-            <div class="control-group">
-              <label class="control-label" for="prefix">Префикс:</label>
-              <div class="controls">
-                <input type="text" class="span2" value="sprites-" id="prefix">
-              </div>
-            </div>
-            <div class="control-group">
-              <label class="control-label" for="numberSpaces">Количество пробелов:</label>
-              <div class="controls">
-                <div class="btn-group" data-toggle="buttons-radio" id="numberSpaces">
-                  <a class="btn btn-primary active">2</a>
-                  <a class="btn-item btn btn-primary ">4</a>
-                </div>
-              </div>
-            </div>
-          </form>
         </div>
-        <pre id="styleCode"  class="prettyprint  linenums margin-top-30"  >
+
+        <div class="col-sm-6 col-md-6 col-lg-6">
+            <h2 class="margin-bottom-20">
+                Скачайте стили
+                <div id="styleThose" class="btn-group" data-toggle="buttons-radio">
+                    <a class="btn btn-primary ">CSS</a>
+                    <a class="btn btn-item btn-primary active" rel="tooltip"
+                       data-original-title="for Bootstrap, from Twitter">Less</a>
+                </div>
+            </h2>
+
+
+            <a class="downloadSprit btn btn-large" id="downloadStyle" disabled> Cкачать стили</a>
+
+            <div class="in-block zclip-box">
+                <a id="copiedMemory" class=" btn btn-large btn-primary" disabled>Копировать в буфер обмена</a>
+            </div>
+            <h3><a class="link_in" data-toggle="collapse" data-target="#optionsStyle">Настройки</a></h3>
+
+            <div id="optionsStyle" class="collapse ">
+                <form class="form-vertical_full">
+                    <div class="row">
+                        <div class="col-sm-2 col-md-2 col-lg-2">
+                            <div class="form-group">
+                                <label class="control-label" for="folderStyle">Папка</label>
+
+                                <div class="controls">
+                                    <input type="text" class="form-control " id="folderStyle" value="less">
+
+                                    <p class="help-block inline">/</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-2 col-md-2 col-lg-2">
+                            <div class="form-group">
+                                <label class="control-label" for="nameStyle">фаил</label>
+
+                                <div class="controls">
+                                    <input type="text" class="form-control " id="nameStyle" value="sprites">
+
+                                    <p class="help-block inline">.less</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                <form class="form-horizontal">
+
+                    <div class="form-group">
+                        <label class="control-label" for="prefix">Префикс:</label>
+
+                        <div class="controls">
+                            <input type="text" class="form-control col-sm-2 col-md-2 col-lg-2" value="sprites-"
+                                   id="prefix">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label" for="numberSpaces">Количество пробелов:</label>
+
+                        <div class="controls">
+                            <div class="btn-group" data-toggle="buttons-radio" id="numberSpaces">
+                                <a class="btn btn-primary active">2</a>
+                                <a class="btn-item btn btn-primary ">4</a>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        <pre id="styleCode" class="prettyprint  linenums margin-top-30">
 <code class="language-css">/*
-  Тут будет ваш код
-  */</code></pre>
+    Тут будет ваш код
+    */</code></pre>
         </div>
     </div>
-
-
-
 </div>
+
+<script id="previewItemTpl" type="text/template">
+    <div class="thumbnail">
+        <span class="close delpreview" type="button">×</span>
+
+        <div class="dis">
+            <span class="photoName"><%= nameFile %></span>
+
+    </div>
+    <div class="nameClass--block">
+        <input type="text"  placeholder="Class name" class=" form-control  nameClassEdit" value="<%= nameClass %>"/>
+        <div class="nameClass"><%= nameClass %></div>
+    </div>
+
+    <div class="imgBox">
+        <img src="<%= dataUrl %>">
+    </div>
+        <span class="size">
+            <%= height %>px/<%= width %>px
+        </span>
+    </div>
+</script>
 <!-- Placed at the end of the document so the pages load faster -->
 <script src="js/libs/jquery.js"></script>
 <script src="js/libs/underscore.js"></script>
 <script src="js/libs/backbone.js"></script>
 <!--<script src="js/jquery.client.js"></script>-->
-<script src="js/bootstrap/bootstrap-button.js"></script>
-<script src="js/bootstrap/bootstrap-collapse.js"></script>
-<script src="js/bootstrap/bootstrap-dropdown.js"></script>
+<script src="js/bootstrap/button.js"></script>
+<script src="js/bootstrap/collapse.js"></script>
+<script src="js/bootstrap/dropdown.js"></script>
 <script src="js/plugin/zclip/jquery.zclip.js"></script>
 <script src="js/plugin/jGrowl/js/jquery.jgrowl.js"></script>
 <script src="js/plugin/jquery.fittext.js"></script>
-<script src="js/plugin/jquery.cookie.js"></script>
+
 <script src="js/main.js"></script>
 <!--<script src="./js/zeroclipboard/ZeroClipboard.js"></script>-->
 <!--<script src="js/projekt.js"></script>-->
 <!--<script type="text/javascript">-->
 
-  <!--var _gaq = _gaq || [];-->
-  <!--_gaq.push(['_setAccount', 'UA-34209445-1']);-->
-  <!--_gaq.push(['_trackPageview']);-->
+<!--var _gaq = _gaq || [];-->
+<!--_gaq.push(['_setAccount', 'UA-34209445-1']);-->
+<!--_gaq.push(['_trackPageview']);-->
 
-  <!--(function() {-->
-    <!--var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;-->
-    <!--ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';-->
-    <!--var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);-->
-  <!--})();-->
+<!--(function() {-->
+<!--var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;-->
+<!--ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';-->
+<!--var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);-->
+<!--})();-->
 
 <!--</script>-->
-<script id="previewItemTpl" type = "text/template">
-    <span class="close delpreview" type="button">×</span>
-    <div class="photoName"><%= name %></div>
-    <div class="imgBox">
-        <img src="<%= url %>">
-    </div>
-</script>
+
 </body>
 </html>
